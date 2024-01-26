@@ -1,0 +1,32 @@
+.footer{
+    background-color:rgb(0, 70, 126);
+    padding-top: 12px;
+}
+
+/* .para-font{
+    font-family: 'Poppins', sans-serif;
+ 
+} */
+.footer-list h4{
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-list ul{
+    list-style: none;
+    padding: 0;
+
+}
+.footer-list li{
+    color: #fff;
+    padding: 10px;
+    /* font-family: 'Poppins', sans-serif */
+}
+
+/* .footer-copy{
+    font-family: 'Poppins', sans-serif;
+
+} */
