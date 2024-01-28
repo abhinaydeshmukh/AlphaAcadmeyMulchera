@@ -71,12 +71,12 @@ function Navbar() {
               </li>
              
               <li className="nav-item">
-                <a className="nav-link nav-text" aria-disabled="true">
+                <a className="nav-link nav-text" aria-disabled="true"  href="https://www.google.com">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link nav-text" aria-disabled="true">
+                <a className="nav-link nav-text" aria-disabled="true"  href="https://www.google.com">
                   Contact Us
                 </a>
               </li>
