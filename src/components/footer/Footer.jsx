@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer w-100'>
       <div className='footer-container row p-2 m-0'>
         <div className='col-md-3 col-12 footer-list p-0'>
-          <a className="navbar-brand pt-2 m-0 h-auto d-block w-auto p-0 d-flex justify-content-center" href="#">
+          <a className="navbar-brand pt-2 m-0 h-auto d-block w-auto p-0 d-flex justify-content-center" href="https://www.google.com">
             <img src={AlphaWhite} alt="alpha Academy Logo" width="140px" />
           </a>
           <h5 className='text-light text-center p-1 m-0'>Alpha Academy Mulchera</h5>
