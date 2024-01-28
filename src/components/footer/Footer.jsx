@@ -1,5 +1,6 @@
 import React from 'react';
 import AlphaWhite from '../../asset/logo/AlphaLogoWhite.png';
+import * as Icons from 'react-bootstrap-icons'
 import './index.css';
 
 function Footer() {
@@ -21,16 +22,16 @@ function Footer() {
           </ul>
         </div>
 
-        <div className='col-md-3 col-12 footer-list'>
+        <div className='col-md-3 col-12 footer-list d-none d-md-block'>
           <h4>Contact Us</h4>
           <ul>
-            <li><p className='m-0'>Subhas Chandra Bose Chowk, Rabindranath Tagore Vachanalaya, Mulchera - 442703, Gadchiroli, Maharashtra</p></li>
-            <li>9075-36-1405</li>
-            <li>alphaAcademyMulchera@gmail.com</li>
+            <li><p className='m-0'><Icons.GeoAltFill/> Subhas Chandra Bose Chowk, Rabindranath Tagore Vachanalaya, Mulchera - 442703, Gadchiroli, Maharashtra</p></li>
+            <li><Icons.Headset/> 9075-36-1405</li>
+            <li><Icons.EnvelopeFill/> alphaAcademyMulchera@gmail.com</li>
           </ul>
         </div>
 
-        <div className='col-md-3 col-12 footer-list'>
+        <div className='col-md-3 col-12 footer-list d-none d-md-block'>
           <h4>Navigate</h4>
           <ul>
             <li>Empowering Rural Economy</li>
@@ -40,13 +41,13 @@ function Footer() {
           </ul>
         </div>
 
-        <div className='col-md-3 col-12 footer-list'>
+        <div className='col-md-3 col-12 footer-list d-none d-md-block'>
           <h4>Our Courses</h4>
           <ul>
             <li>Full Stack Web Development</li>
-            <li>Front-end Development</li>
             <li>Programming in Python</li>
-            <li>Back-end Development</li>
+            <li>Programming in Java</li>
+            <li>React Js</li>
           </ul>
         </div>
 

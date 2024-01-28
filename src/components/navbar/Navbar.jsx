@@ -3,7 +3,7 @@ import './index.css'
 import AlphaLogo from '../../asset/logo/alphaAcadmey.png'
 function Navbar() {
   return (
-    <div>
+    <div className='sticky-top'>
       <nav className="navbar navbar-expand-lg bg-body-tertiary m-0 px-2 shadow-sm">
         <div className="container-fluid m-0 p-0 ">
           <a className="navbar-brand px-2 m-0" href="#">

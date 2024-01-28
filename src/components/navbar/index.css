@@ -1,4 +1,8 @@
-
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 .nav-text{
     font-family: 'Poppins', sans-serif;
     font-size: 18px !important;

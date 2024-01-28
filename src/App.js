@@ -1,4 +1,6 @@
 import './App.css';
+import Course from './components/cards/Course';
+import ChartsLiteracy from './components/charts/ChartsLiteracy';
 import CoursesCard from './components/coursals/CoursesCard';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
@@ -8,7 +10,11 @@ function App() {
     <div className="App">
       <Navbar/> 
       <CoursesCard/>
+      <ChartsLiteracy/>
+      <Course/>
       <Footer/>
+
+
    </div>
   );
 }
