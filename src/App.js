@@ -5,8 +5,6 @@ import CoursesCard from './components/coursals/CoursesCard';
 import Footer from './components/footer/Footer';
 import IndividualRegistration from './components/form/IndividualRegistration';
 import Navbar from './components/navbar/Navbar';
-import DistrictCollector from './components/poster/DistrictCollector';
-import Poster from './components/poster/Poster';
 
 function App() {
   return (
